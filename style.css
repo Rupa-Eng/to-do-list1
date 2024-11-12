@@ -1,0 +1,46 @@
+body{
+    background-color: lightpink;
+}
+.container {
+    background-color: bisque ;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px; /* Adds a subtle rounded corner */
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px; /
+}
+
+input[type='text'] {
+    width: 60%; 
+    padding: 10px; 
+    font-size: 16px;
+    margin-bottom: 10px; 
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 15px;
+    color: #fff;
+    background-color:blue;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px; 
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Added to ensure no extra space around the list */
+}
